@@ -1,19 +1,27 @@
-# Data Analysis on the food receipes and ratings reviews since 2008
+# Data Prediction on the food receipes and ratings reviews since 2008
 
 by Su Aye 
 
-***Cooking Time and Average Rating Analysis***
+***Date of the review and Ratings Prediction***
 ---
 ## Introduction
-In this project, I aim to investigate the relationship between cooking time and the average rating of recipes. The cooking time of a recipe is the duration it takes to prepare and cook the dish, while the average rating represents the overall satisfaction or quality of the recipe as rated by users. By analyzing this relationship, I can gain insights into whether cooking time influences the average rating of recipes.
+explain in paragraph
+
+Exploratory data analysis on this dataset can be found [https://suaye07.github.io/Analysis-of-recipes-and-ratings/](doc:linking-to-pages#anchor-links)
 
 
-### Analysis Question: What is the relationship between the cooking time and average rating of recipes?
+### Prediction Question: 
 
 
 ---
 
-## Cleaning and EDA
+## Framing the Problem 
+
+## Baseline Model 
+
+## Final Model 
+
+##Fairness Analysis 
 
 Before performing the analysis, I will clean and explore the dataset. This step involves preprocessing the data, handling missing values, and performing exploratory data analysis (EDA) to gain a better understanding of the variables involved. I will ensure the data is in a suitable format for further analysis.
 
@@ -69,7 +77,6 @@ Overall, this analysis aims to provide insights into top-rated, quick-to-make re
 
 ***Interesting Aggregates***
 
-## First five rows from the sorted dataset.
 
 | name                            |   mean_rating |   minutes |
 |:--------------------------------|--------------:|----------:|
@@ -104,7 +111,7 @@ This another analysis put the category into the minutes it takes to make the foo
 
 Overall, this analysis helps understand if there is any correlation between cooking time and the average rating of recipes, enabling you to identify potential trends or preferences among users based on different cooking time categories.
 
-## Assessment of Missingness
+## Baseline Model 
 
 In this phase, I will assess the missingness in the dataset, specifically focusing on the variables related to cooking time and average rating. I will investigate if there are any patterns or correlations between missing values and other variables. Various techniques such as visualization and statistical tests will be utilized to evaluate the missingness.
 
