@@ -17,11 +17,15 @@ Exploratory data analysis on this dataset can be found [https://suaye07.github.i
 
 ## Framing the Problem 
 
+***Data Cleaning***
+
+
+
 ## Baseline Model 
 
 ## Final Model 
 
-##Fairness Analysis 
+## Fairness Analysis 
 
 Before performing the analysis, I will clean and explore the dataset. This step involves preprocessing the data, handling missing values, and performing exploratory data analysis (EDA) to gain a better understanding of the variables involved. I will ensure the data is in a suitable format for further analysis.
 
