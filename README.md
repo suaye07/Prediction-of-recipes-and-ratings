@@ -7,7 +7,7 @@ by Su Aye
 ## Introduction
 explain in paragraph
 
-Exploratory data analysis on this dataset can be found [https://suaye07.github.io/Analysis-of-recipes-and-ratings/](doc:linking-to-pages#anchor-links)
+Exploratory data analysis on this dataset can be found [here.](https://suaye07.github.io/Analysis-of-recipes-and-ratings/)
 
 
 ### Prediction Question: 
