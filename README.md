@@ -38,7 +38,23 @@ To evaluate the model, the chosen metric is accuracy. Accuracy measures the prop
 
 While other suitable metrics such as the F1-score could be considered, accuracy was preferred in this case due to its simplicity and ease of interpretation. Given that the objective is to determine if the overall recipe meets a certain threshold, accuracy provides a straightforward measure of the model's success in achieving this goal.
 
+
 ## Baseline Model 
+
+#### Accuracy: 0.8613529805760214
+
+The model used in this project is a Random Forest Classifier, which is a machine learning algorithm capable of performing classification tasks. The model aims to predict the binary rating of a restaurant's overall recipe, whether it is above 4 stars or not.
+The features included in the model are 'n_steps' and 'minutes', representing quantitative variables related to the recipe. These features are used to train the model and make predictions.
+To handle the quantitative features, a preprocessing step is performed using the StandardScaler. This scaler standardizes the features by subtracting the mean and scaling to unit variance, ensuring that the variables are on a similar scale and preventing any bias in the model.
+The dataset is split into training and testing sets using the train_test_split function, with 80% of the data used for training and 20% for testing.
+The preprocessor is applied to the training data using the ColumnTransformer, which specifies that the 'numeric' transformer (StandardScaler) should be applied to the 'n_steps' and 'minutes' columns.
+The model is then built using a pipeline that combines the preprocessor and the Random Forest Classifier. The pipeline ensures that the preprocessing steps are applied consistently to the training and testing data.
+Once the model is trained, predictions are made on the testing data using the predict function. The accuracy of the model is evaluated by comparing the predicted ratings (y_pred) with the actual ratings (y_test) using the accuracy_score function.
+The accuracy of the model is reported to be approximately 86.14%. This means that the model correctly classified 86.14% of the instances in the testing data.
+Accuracy is a commonly used metric to evaluate classification models as it provides a straightforward measure of overall correctness. In this case, the accuracy score indicates how well the model performed in predicting whether a restaurant's overall recipe received a rating above 4 stars or not.
+A higher accuracy score suggests that the model is effective in making accurate predictions. However, it is important to consider other factors specific to the problem at hand, such as the consequences of false positives or false negatives, the distribution of the classes, and any class imbalance.
+While accuracy is a valuable metric, it may not be the sole determinant of the model's "goodness" in every scenario. Additional evaluation and analysis, considering domain knowledge and specific requirements, are necessary to determine the model's suitability and effectiveness in addressing the problem.
+
 
 ## Final Model 
 
