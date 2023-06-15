@@ -19,7 +19,12 @@ Exploratory data analysis on this dataset can be found [here.](https://suaye07.g
 
 ***Data Cleaning***
 
+***Problem Identification***
+The prediction problem at hand involves determining the rating of a restaurant's overall recipe. This is a classification problem, specifically binary classification. The response variable, or the variable being predicted, is whether the restaurant's overall recipe has received reviews with a rating above 4 stars. This variable was chosen as it provides a clear threshold to differentiate between positive and negative evaluations.
 
+To evaluate the model, the chosen metric is accuracy. Accuracy measures the proportion of correctly classified instances, which is suitable for assessing the performance of a binary classification model. By focusing on accuracy, we can gauge the overall effectiveness of the model in correctly predicting whether a restaurant's recipe is above 4 stars or not.
+
+While other suitable metrics such as the F1-score could be considered, accuracy was preferred in this case due to its simplicity and ease of interpretation. Given that the objective is to determine if the overall recipe meets a certain threshold, accuracy provides a straightforward measure of the model's success in achieving this goal.
 
 ## Baseline Model 
 
