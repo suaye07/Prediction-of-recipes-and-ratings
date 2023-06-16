@@ -57,6 +57,14 @@ While accuracy is a valuable metric, it may not be the sole determinant of the m
 
 ## Final Model 
 
+#### Accuracy: 0.930043908610553
+
+Two new features, 'n_ingredients' and 'tags', were added to the dataset. These features have the potential to improve the model's accuracy in predicting the binary rating.
+n_ingredients: The number of ingredients required for a recipe can provide insights into the recipe's complexity or simplicity. By including this feature, the model can capture any relationships between the number of ingredients and the rating. For example, recipes with a higher number of ingredients might be seen as more sophisticated, potentially leading to higher ratings. Conversely, recipes with a smaller number of ingredients might be preferred by users seeking simplicity.
+tags: The 'tags' feature, representing categorical information about recipe attributes, can offer valuable information for predicting the rating. By including this feature, the model can identify patterns or relationships between specific tags and the binary rating. For instance, certain tags might indicate the cuisine type, dietary restrictions, or meal category. These tags could influence users' preferences and impact their ratings accordingly.
+The modeling algorithm chosen for this task is a Random Forest Classifier (RFC) implemented using scikit-learn's RandomForestClassifier class. The RFC algorithm is well-suited for this problem as it can handle both numerical and categorical features effectively.
+The hyperparameters were tuned using a grid search with cross-validation. The best combination of hyperparameters was found, resulting in an accuracy of 93.05% on the test set. This indicates that the chosen features, 'n_ingredients' and 'tags', along with the RFC algorithm, contributed to a significantly improved model performance compared to the baseline.
+
 ## Fairness Analysis 
 
 Before performing the analysis, I will clean and explore the dataset. This step involves preprocessing the data, handling missing values, and performing exploratory data analysis (EDA) to gain a better understanding of the variables involved. I will ensure the data is in a suitable format for further analysis.
