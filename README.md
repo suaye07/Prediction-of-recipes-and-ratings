@@ -1,8 +1,6 @@
 # Data Prediction on the food receipes and ratings reviews since 2008
 
 by Su Aye 
-
-***Date of the review and Ratings Prediction***
 ---
 ## Introduction
 explain in paragraph
@@ -18,6 +16,7 @@ Exploratory data analysis on this dataset can be found [here.](https://suaye07.g
 ## Framing the Problem 
 
 ***Data Cleaning***
+
 To create the model, I first prepared the data by cleaning it according to the requirements. I reused the dataset that was already cleaned in a previous project 3. Before starting to build the model, let's take a look at how the data table appears in its original form. This will give us an idea of what the data looks like before we begin working on the model. 
 
 
@@ -30,6 +29,7 @@ To create the model, I first prepared the data by cleaning it according to the r
 
 
 ***Problem Identification***
+
 The prediction problem at hand involves determining the rating of a restaurant's overall recipe. This is a classification problem, specifically binary classification. The response variable, or the variable being predicted, is whether the restaurant's overall recipe has received reviews with a mean rating above 4 stars. This variable was chosen as it provides a clear threshold to differentiate between positive and negative evaluations.
 
 To evaluate the model, the chosen metric is accuracy. Accuracy measures the proportion of correctly classified instances, which is suitable for assessing the performance of a binary classification model. By focusing on accuracy, we can gauge the overall effectiveness of the model in correctly predicting whether a restaurant's recipe is above 4 stars or not.
@@ -91,8 +91,11 @@ The result clearly states that the receipe has more rating {4,5}-> 1s in binary 
 ***Hypothesis Testing***
 
 Null Hypothesis: Model is fair! There is no significant association between the features 'minutes', 'n_steps', and 'n_ingredients' and the binary rating 0s and 1s.
+
 Alternative Hypothesis: There is a significant association between the features 'minutes', 'n_steps', and 'n_ingredients' and the binary rating 0s and 1s.
-Results: 
+
+_Results_
+
 Observed value: 0.8558818713624388
 P-value: 0.000999000999000999
 
