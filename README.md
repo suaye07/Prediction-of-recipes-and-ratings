@@ -85,6 +85,18 @@ The result clearly states that the receipe has more rating {4,5}-> 1s in binary 
 |  1 |   57495 |
 |  0 |    9686 |
 
+***Visualization***
+<iframe src="assets/count_binary_rating.html" width=600 height=400 frameBorder=0></iframe>
+
+***Hypothesis Testing***
+
+Null Hypothesis: Model is fair! There is no significant association between the features 'minutes', 'n_steps', and 'n_ingredients' and the binary rating 0s and 1s.
+Alternative Hypothesis: There is a significant association between the features 'minutes', 'n_steps', and 'n_ingredients' and the binary rating 0s and 1s.
+Results: 
+Observed value: 0.8558818713624388
+P-value: 0.000999000999000999
+
+
 In this case, Group X represents the combination of features 'minutes', 'n_steps', and 'n_ingredients', while Group Y represents the binary rating.
 
 The evaluation metric used is the accuracy score, which measures the proportion of correct predictions made by the logistic regression model.
