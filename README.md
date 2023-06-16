@@ -2,14 +2,13 @@
 
 by Su Aye 
 ---
+### Prediction: Binary Rating of the ratings
+
 ## Introduction
 
 In order to predict the binary rating of a given item, my objective is to develop a model that can accurately classify the ratings into two categories: 0 and 1. For this task, we will consider ratings ranging from 0 to 3 as category 0, and ratings of 4 and 5 as category 1. By building a predictive model, I aim to leverage various features and patterns present in the dataset to make accurate predictions about the binary rating. The model will be trained on historical data where the binary rating has already been assigned, enabling it to learn from past patterns and generalize its predictions to new, unseen data. My ultimate goal is to create a robust model that can reliably classify future ratings into the appropriate binary categories, providing valuable insights and aiding decision-making processes.
 
 Exploratory data analysis on this dataset can be found [here.](https://suaye07.github.io/Analysis-of-recipes-and-ratings/)
-
-
-### Prediction: Binary Rating of the ratings
 
 ---
 
