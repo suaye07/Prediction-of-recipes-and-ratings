@@ -77,6 +77,14 @@ The hyperparameters were tuned using a grid search with cross-validation. The be
 
 ## Fairness Analysis 
 
+I run some data analysis for visualization and gain insights into the distribution of the 'binary_rating' 0s and 1s column. By creating a bar plot, it becomes easier to visualize the count of each value and observe any imbalances or patterns in the data. This information can be useful for understanding the distribution of the target variable and potentially guide further analysis or modeling decisions.
+The result clearly states that the receipe has more rating {4,5}-> 1s in binary and less {0,1,2,3}-> 0s in binary. 
+
+|    |   Count |
+|---:|--------:|
+|  1 |   57495 |
+|  0 |    9686 |
+
 In this case, Group X represents the combination of features 'minutes', 'n_steps', and 'n_ingredients', while Group Y represents the binary rating.
 
 The evaluation metric used is the accuracy score, which measures the proportion of correct predictions made by the logistic regression model.
