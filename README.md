@@ -86,7 +86,7 @@ The result clearly states that the receipe has more rating {4,5}-> 1s in binary 
 |  0 |    9686 |
 
 ***Visualization***
-<iframe src="assets/count_binary_rating.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="oneNonly/count_binary_rating.html" width=600 height=400 frameBorder=0></iframe>
 
 ***Hypothesis Testing***
 
